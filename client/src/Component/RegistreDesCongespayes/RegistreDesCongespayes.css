@@ -1,0 +1,44 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.french-label {
+  flex: 2;
+  text-align: left;
+}
+
+.arabic-label {
+  flex: 1;
+  text-align: right;
+}
+
+input[type="text"], textarea {
+  flex: 2;
+}
+.black-legend {
+  color: black;
+  text-align: center;
+}
+
+.fixed-size-textarea {
+  width: 100%; /* Adjust width as needed */
+  height: 100px; /* Set a fixed height */
+  resize: none; /* Prevent resizing */
+}
+/* Custom style for Export Excel button */
+button.export-excel {
+  background-color:#1ca456;
+}
+
+button.export-excel:hover {
+  background-color:#1a8e4a;
+}

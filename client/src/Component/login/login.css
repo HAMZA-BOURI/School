@@ -1,0 +1,89 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Hauteur complète de la fenêtre */
+  background-color: #f4f4f4; /* Couleur de fond claire */
+  background-image: url('/src/assets/background.jpg'); /* Ajouter une image de fond */
+  background-size: cover; /* Assurer que l'image couvre tout le conteneur */
+  background-position: center; /* Centrer l'image de fond */
+  background-repeat: no-repeat; /* Empêcher la répétition de l'image */
+}
+
+.login-form {
+  background-color: #fff; /* Fond blanc pour le formulaire */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Légère ombre pour une meilleure visibilité */
+  max-width: 400px; /* Largeur maximale pour le formulaire */
+  width: 100%;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #333; /* Couleur sombre pour le titre */
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #333; /* Couleur sombre pour les étiquettes */
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button.login-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #3d77b5; /* Fond bleu */
+  color: #fff; /* Couleur de texte blanche */
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button.login-button:hover {
+  background-color: #0056b3; /* Bleu plus foncé au survol */
+}
+
+.signup-prompt {
+  margin-top: 1rem;
+  text-align: center;
+  color: #333; /* Couleur sombre pour le texte */
+}
+
+.signup-prompt a {
+  color: #007bff; /* Couleur bleue pour le lien */
+  text-decoration: none;
+}
+
+.signuppage a:hover {
+  text-decoration: underline; /* Souligner au survol */
+}
+.signuppage {
+  margin-top: 1rem;
+  text-align: center; /* Center the text inside the container */
+  color: #333; /* Dark color for text */
+}
+
+.signuppage a {
+  color: #007bff; /* Blue color for the link */
+  text-decoration: none;
+}
+
+.signuppage a:hover {
+  text-decoration: underline; /* Underline on hover */
+}

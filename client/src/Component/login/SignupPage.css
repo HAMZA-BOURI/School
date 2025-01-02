@@ -1,0 +1,64 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Hauteur complète de la fenêtre */
+  background-color: #f4f4f4; /* Couleur de fond claire */
+  background-image: url('/src/assets/background.jpg'); /* Ajouter une image de fond */
+  background-size: cover; /* Assurer que l'image couvre tout le conteneur */
+  background-position: center; /* Centrer l'image de fond */
+  background-repeat: no-repeat; /* Empêcher la répétition de l'image */
+}
+
+.signup-form {
+  background-color: #fff; /* Fond blanc pour le formulaire */
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Légère ombre pour une meilleure visibilité */
+  max-width: 400px; /* Largeur maximale pour le formulaire */
+  width: 100%;
+}
+
+.signup-form h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #333; /* Couleur sombre pour le titre */
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #555; /* Couleur sombre pour les étiquettes */
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.signup-button {
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #3d77b5; /* Fond vert */
+  color: #fff; /* Couleur de texte blanche */
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background-color:#3d77b5; /* Vert plus foncé au survol */
+}
+
+button:hover {
+  background-color: #0056b3; /* Bleu plus foncé au survol */
+}

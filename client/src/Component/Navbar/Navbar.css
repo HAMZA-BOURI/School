@@ -1,0 +1,60 @@
+/* Navbar.css */
+
+.navbar-container {
+  padding: 1rem 2rem;
+  background-color: #0a4d94; /* Dark blue background */
+  display: flex; /* Use Flexbox to align items */
+  justify-content: flex-end; /* Align items to the right */
+}
+
+.navbar-menu {
+  list-style: none; /* Remove default list styling */
+  display: flex; /* Use Flexbox for horizontal layout */
+  align-items: center; /* Center items vertically */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.nav-item {
+  margin: 0 3rem; /* Horizontal spacing between items */
+}
+
+.nav-link {
+  text-decoration: none; /* Remove underline from links */
+  color: #F7F7F7; /* Light color for text */
+  font-size: 1rem; /* Standard font size */
+  font-weight: 500; /* Medium font weight */
+  display: flex; /* Flexbox for aligning content */
+  align-items: center; /* Center content vertically */
+}
+
+.nav-link:hover {
+  color: #21a1f1; /* Lighter blue color on hover */
+}
+
+.login-icon {
+  width: 24px; /* Set width of icon */
+  height: 24px; /* Set height of icon */
+  margin-right: 0.5rem; /* Spacing to the right of the icon */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar-container {
+    padding: 1rem; /* Adjust padding for smaller screens */
+  }
+
+  .navbar-menu {
+    flex-direction: column; /* Stack menu items vertically */
+    align-items: flex-start; /* Align items to the start of the container */
+  }
+
+  .nav-item {
+    margin: 0.5rem 0; /* Vertical spacing between items */
+  }
+}
+
+.login-icon {
+  width: 37px; /* Set the desired width */
+  height: 37px; /* Set the desired height */
+}
